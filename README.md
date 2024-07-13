@@ -1,10 +1,10 @@
-#Overview
+# Overview
 Gen AI is a project focused on generating CIFAR-10-like images using Generative Adversarial Networks (GANs). The custom GAN model consists of a Generator and a Discriminator, trained to produce realistic images and differentiate between real and generated ones.
 
-#Prerequisites
+# Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-#Python 3.6 or later
+Python 3.6 or later
 NVIDIA GPU with CUDA support (for faster training)
 Basic knowledge of deep learning and GANs
 Installation
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Dataset
 The CIFAR-10 dataset is used for training the GAN. It can be downloaded from here. The dataset is automatically downloaded and preprocessed by the training script.
 
-#Model Architecture
+Model Architecture
 The custom GAN model consists of two main components:
 
 #Generator: The Generator takes a random noise vector as input and generates a realistic image.
@@ -47,7 +47,7 @@ Copy code
 python generate.py --num_images 10
 This will generate 10 new images and save them in the output directory.
 
-#Results
+# Results
 The results of the GAN training and generated images can be found in the results directory. Here are some sample generated images:
 
 ![image](https://github.com/user-attachments/assets/31901a08-1465-471a-a0db-db3ecc89432e)
